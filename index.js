@@ -12,7 +12,7 @@ const app = express();
 
 //enable cors
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:8000"],
+  origin: ["http://localhost:5173", "http://localhost:3000"],
   optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
