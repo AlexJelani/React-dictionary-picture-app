@@ -27,7 +27,7 @@ const ResultList = () => {
       setLoading(true);
       const [res1, res2] = await Promise.all([
         axios(`/${param}`),
-        axios.get(`http://localhost:8000/dictionary?word=${param}`),
+        axios.get(`http://localhost:5000/dictionary?word=${param}`),
       ]);
 
       setAudioUrl(res1.data[0].phonetics[0].audio);
