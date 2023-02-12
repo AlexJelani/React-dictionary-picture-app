@@ -27,7 +27,9 @@ const ResultList = () => {
       setLoading(true);
       const [res1, res2] = await Promise.all([
         axios(`/${param}`),
-        axios.get(`https://us-central1-node-js-11abf.cloudfunctions.net/app/dictionary?word=${param}`),
+        axios.get(
+          `https://us-central1-node-js-11abf.cloudfunctions.net/app/dictionary?word=${param}`
+        ),
       ]);
 
       setAudioUrl(res1.data[0].phonetics[0].audio);
@@ -89,7 +91,9 @@ const ResultList = () => {
           <Antonym mean={response} />
         </div>
       )}
-      {!response && <div className="text-center text-6xl">Type a word in the box</div>}
+      {!response && (
+        <div className="text-center text-6xl">Type a word in the box</div>
+      )}
     </div>
   );
 };
