@@ -46,7 +46,7 @@ To Visit App:
 
 ## Project to-dos
 
-  - What was the context for this project? (ie: was this a side project? was this for Turing? was this for an experiment?)
+  - 
   - What did you set out to build?
   - Why was this project challenging and therefore a really good learning experience?
   - What were some unexpected obstacles?
