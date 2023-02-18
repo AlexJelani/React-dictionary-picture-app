@@ -20,9 +20,7 @@ https://react-picture-dictionary-app.web.app/
 
 #### Example:   
 
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![](images/React%20Dictionary%20App.png)
 
 ## Installation and Setup Instructions
 
