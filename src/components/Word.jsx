@@ -30,8 +30,8 @@ const Word = ({ words, playAudio }) => {
       return (
         <div className="columns-2 md:columns-3">
           <h1 className="text-4xl">{firstWord.word}</h1>
-          <audio src={audioUrl} controls />
-          <button onClick={() => playAudio(audioUrl)}>Play Audio</button>
+          <audio src={audioUrl} controls className="w-full" />
+          <button onClick={() => playAudio(audioUrl)}></button>
         </div>
       );
     } else {
